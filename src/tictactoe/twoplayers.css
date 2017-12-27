@@ -1,0 +1,28 @@
+.grid {
+    width: 180px;
+    height: 180px;
+}
+.square {
+    position: relative;
+    float: left;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.x:before {
+    content: 'X';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+.o:before {
+    content: 'O';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}

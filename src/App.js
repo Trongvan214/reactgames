@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Menu from './menu';
-import TicTacToe from './tictactoe';
+import TicTacToe from './tictactoe/tictactoe';
 import SnakeGame from './snakegame';
 import FlappyBird from './flappybird';
 class App extends Component {
